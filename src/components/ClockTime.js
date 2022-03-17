@@ -28,7 +28,6 @@ function ClockTime() {
     }, []);
 
     function breakTimeHandleChange(e) {
-        console.log(pomodoroInitialState);
         setbreakTimeValue(e.target.value);
     }
 
