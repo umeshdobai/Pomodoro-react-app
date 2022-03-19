@@ -13,7 +13,7 @@ function TimerButton(props) {
     useEffect(() => {
         props.pauseOrStartClick(
             pauseOrStart,
-            pomodoroInitialState.breakTimeValue
+            pomodoroInitialState
         );
     }, [pauseOrStart]);
 

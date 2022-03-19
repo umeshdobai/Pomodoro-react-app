@@ -1,12 +1,12 @@
 import React from "react";
 import ClockTime from "./ClockTime";
-import Timer from "./Timer";
+import FocusTimer from "./FocusTimer";
 
 function Pomodoro() {
     return (
         <>
             <ClockTime />
-            <Timer />
+            <FocusTimer />
         </>
     );
 }

@@ -6,7 +6,7 @@ const UPDATE_BREAK_TIME = "UPDATE_BREAK_TIME";
 //states
 export const initialState = {
     globalTIme: new Date().toLocaleString(),
-    fromTimevalue: null,
+    fromTimevalue: new Date(),
     toTimevalue: null,
     breakTimeValue: "",
 };
